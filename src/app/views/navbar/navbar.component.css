@@ -1,0 +1,11 @@
+.nav-link{
+	font-size: 18px;
+	color:    	#0a0a34;
+	font-weight: bold;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+	background-color: aqua;
+	 /* Ensure the background color covers the full width */
+   
+}

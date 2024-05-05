@@ -1,0 +1,58 @@
+.about-wrapper{
+    background-color: white;
+}
+
+.card-img-top {
+    max-width: 100%;
+    max-height:250px ;
+	object-fit: fill; /* This will maintain the aspect ratio */
+}
+.about-container{
+	margin-top: 40px;
+}
+.card-title{
+	font-size: 20px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: orangered;
+    font-weight: 300;
+   
+}
+.card-text{
+	font-size: 14px;
+	color: rgb(101, 100, 100);
+	text-align: justify;
+}
+/* For small devices, each card takes full width */
+@media (max-width: 767px) {
+    .card {
+        width: 100%;
+    }
+}
+
+/* For medium and larger devices */
+@media (min-width: 768px) {
+    /* First row card takes full width */
+    .first-row-card {
+        width: 100%;
+        margin-bottom: 20px; /* Add margin bottom for space */
+    }
+
+    /* Second row cards are placed side by side */
+    .second-row-cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    /* Adjust card width for the second row */
+    .second-row-cards .card {
+        width: calc(50% - 10px); /* Adjust the width as needed */
+    }
+}
+/*whytourexperts*/
+.whytour{
+	margin-top: 30px;
+}
+.about-card-why{
+    margin-top: 50px;
+}
